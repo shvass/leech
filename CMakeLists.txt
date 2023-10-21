@@ -16,7 +16,7 @@
 
 
 
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.5)
 set(CMAKE_CXX_STANDARD 17)
 
 
@@ -37,9 +37,9 @@ include(cmake/searchLib.cmake)
 
 
 # replace projectNameHere 
-set(prjName projectNameHere)
-project(projectNameHere)
-generate(projectNameHere)
+set(prjName leech)
+project(leech)
+generate(leech)
 
 include(cmake/tests.cmake)
 include(cmake/genDocs.cmake)

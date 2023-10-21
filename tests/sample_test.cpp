@@ -1,6 +1,6 @@
 #include "pch.hpp"
 
 int main(){
-    std::cout << "hello world\n";
+    std::cout << "Leech is under development\n";
     return 0;
 }
